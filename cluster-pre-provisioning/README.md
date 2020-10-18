@@ -9,9 +9,9 @@ For the purpose of this workshop, we will be using Azure Firewall to control egr
 The variables should be fairly straightforward, however a few notes have been included on those where additional information is necessary.
 
 ```bash
-PREFIX="contosofin" # NOTE: Please make sure PREFIX is unique in your tenant, you must not have any hyphens '-' in the value.
+PREFIX="sql2019withaks" # NOTE: Please make sure PREFIX is unique in your tenant, you must not have any hyphens '-' in the value.
 RG="${PREFIX}-rg"
-LOC="eastus"
+LOC="westus2"
 NAME="${PREFIX}"
 ACR_NAME="${NAME}acr"
 VNET_NAME="${PREFIX}vnet"
